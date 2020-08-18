@@ -301,13 +301,20 @@ elements.shoppingList.addEventListener('click', e => {
     // delete from UI
     listView.deleteItem(id)
 
+    listView.deleteAllBtn(state.list.getNumList())
+
+
     // handle the count button
   } else if (e.target.matches('.shopping__count-value, .shopping__count-value *')) {
+
     // getting value from the UI
     const val = parseFloat(e.target.value, 10);
 
     // update count in the state
     state.list.updateCount(id, val)
+
+    listView.deleteAllBtn(state.list.getNumList())
+
   }
 
 
