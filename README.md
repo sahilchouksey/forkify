@@ -1,6 +1,6 @@
 # # Forkify
 
-* http://github.com/sahilchouksey/forkify
+* https://sahilchouksey.github.io/forkify
 
 ## Acknowledgments
 
