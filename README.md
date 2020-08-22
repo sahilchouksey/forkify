@@ -1,4 +1,4 @@
-# [# Forkify](https://sahilchouksey.github.io/forkify)
+# [Forkify](https://sahilchouksey.github.io/forkify)
 
 ## Acknowledgments
 
