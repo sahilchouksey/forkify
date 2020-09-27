@@ -7,8 +7,9 @@
     .mode input {
       font-size: 2.7em; }
     .mode {
-      position: absolute;
-      right: 1%;
+      z-index: 1;
+      position: fixed;
+      left: 1%;
       top: 1%;
       padding: 1.5em 0 0 0;
       text-align: center; }
@@ -75,8 +76,8 @@
     }
     @media only screen and (max-width: 1050px) {
         .mode {
-            right: 1.5%;
-            top: 3.6%;
+            left: 1%;
+            top: 0%;
         }
         .mode input {
             font-size: 2.5rem;
